@@ -1,0 +1,18 @@
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.brands div{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brands div img{
+    width: 80px;
+}
